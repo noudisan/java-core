@@ -1,23 +1,7 @@
 # Compiled class file
-*.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+.idea
+core-java.iml
+chapter01_thread/chapter01_thread.iml
+chapter02_io/chapter02_io.iml
+chapter03_net/chapter03_net.iml
+chapter04_collection/chapter04_collection.iml
