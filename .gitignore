@@ -2,6 +2,8 @@
 .idea
 core-java.iml
 chapter01_thread/chapter01_thread.iml
+chapter01_thread/target/
 chapter02_io/chapter02_io.iml
+chapter02_io/target
 chapter03_net/chapter03_net.iml
 chapter04_collection/chapter04_collection.iml
