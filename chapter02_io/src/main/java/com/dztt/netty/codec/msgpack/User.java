@@ -2,8 +2,10 @@ package com.dztt.netty.codec.msgpack;
 
 import org.msgpack.annotation.Message;
 
+import java.io.Serializable;
+
 @Message
-public class User {
+public class User implements Serializable {
     private String name;
     private Integer age;
 

@@ -41,6 +41,7 @@ public class SubReqClientHandler extends ChannelHandlerAdapter {
         ctx.flush();
     }
 
+    //该对象要可序列号
     private User subReq(int i) {
         User req = new User();
         req.setName("NanJing");

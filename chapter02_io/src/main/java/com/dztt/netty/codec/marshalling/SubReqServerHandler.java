@@ -39,6 +39,7 @@ public class SubReqServerHandler extends ChannelHandlerAdapter {
         }
     }
 
+    //该对象要可序列号
     private User resp(int subReqID) {
         User resp = new User();
         resp.setName("Netty book order succeed, 3 days later, sent to the designated address");
