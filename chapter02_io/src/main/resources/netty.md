@@ -8,4 +8,6 @@
 三、codec 编解码
     1、MessagePack
     2、protobuf
-    3、
+    3、marshalling
+四、protocol 协议
+    1、http
