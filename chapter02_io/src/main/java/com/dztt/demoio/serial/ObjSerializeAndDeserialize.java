@@ -23,9 +23,9 @@ public class ObjSerializeAndDeserialize {
     private static void SerializePerson() throws
             IOException {
         Person person = new Person();
-        person.setName("name");
         person.setAge(20);
         person.setSex("男");
+        person.setName("name");
 
         ObjectOutputStream oo = new ObjectOutputStream(new FileOutputStream(
                 new File(PRE_FILE_PATH+"Person.txt")));
