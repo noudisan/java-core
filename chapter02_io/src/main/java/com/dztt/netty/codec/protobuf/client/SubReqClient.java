@@ -47,13 +47,13 @@ public class SubReqClient {
                         @Override
                         public void initChannel(SocketChannel ch)
                                 throws Exception {
-
+                            //netty提供的，它可以处理半包问题//继承ByteToMessageDecoder，自己处理半包信息
                             ch.pipeline().addLast(new ProtobufVarint32FrameDecoder());
-
+                            //转码
                             ch.pipeline().addLast(new ProtobufDecoder(SubscribeRespProto.SubscribeResp.getDefaultInstance()));
 
                             ch.pipeline().addLast(new ProtobufVarint32LengthFieldPrepender());
-
+                            //
                             ch.pipeline().addLast(new ProtobufEncoder());
 
                             ch.pipeline().addLast(new SubReqClientHandler());
