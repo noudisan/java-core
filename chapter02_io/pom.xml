@@ -77,6 +77,8 @@
             <artifactId>wstx-asl</artifactId>
             <version>3.2.9</version>
         </dependency>
+
+        <!--JiBX  xml数据绑定框架 -->
         <dependency>
             <groupId>org.jibx</groupId>
             <artifactId>jibx-bind</artifactId>
