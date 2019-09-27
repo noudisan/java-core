@@ -70,7 +70,7 @@ public class LoginAuthRespHandler extends ChannelHandlerAdapter {
                     }
                 }
                 loginResp = isOK ? buildResponse((byte) 0) : buildResponse((byte) -1);
-                if (isOK){
+                if (isOK) {
                     nodeCheck.put(nodeIndex, true);
                 }
             }

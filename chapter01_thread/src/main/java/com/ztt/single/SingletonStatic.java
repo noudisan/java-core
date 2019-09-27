@@ -5,7 +5,8 @@ package com.ztt.single;
  */
 public class SingletonStatic {
 
-    private SingletonStatic() {}
+    private SingletonStatic() {
+    }
 
     private static class SingletonInstance {
         private static final SingletonStatic INSTANCE = new SingletonStatic();

@@ -8,7 +8,8 @@ public class Singleton {
 
     private static volatile Singleton singleton;
 
-    private Singleton() {}
+    private Singleton() {
+    }
 
     public static Singleton getInstance() {
         if (singleton == null) {

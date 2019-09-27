@@ -4,8 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ztt</groupId>
-    <artifactId>core-java</artifactId>
-    <version>1.0</version>
+    <artifactId>java-core</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
     <name>core-java</name>
@@ -16,6 +16,7 @@
         <module>chapter02_io</module>
         <module>chapter03_net</module>
         <module>chapter04_collection</module>
+        <module>chapter05_thread_art</module>
     </modules>
 
     <properties>
@@ -24,7 +25,7 @@
 
         <java_source_version>1.8</java_source_version>
         <java_target_version>1.8</java_target_version>
-       
+
 
     </properties>
 
@@ -63,5 +64,5 @@
         </pluginManagement>
     </build>
 
-  
+
 </project>
